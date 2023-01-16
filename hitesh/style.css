@@ -4,13 +4,19 @@ body{
 .container{
     background:url(https://t4.ftcdn.net/jpg/01/70/93/27/240_F_170932733_VOHGeaH5AjrVCXBVryEwVgwhArv2wNNH.jpg);
     margin: auto;
+    margin-right: ;
+    width:99%;
 }
 .start {
     display: flex;
     
 }
+.b{
+   width: 50%;
+}
+.c{}
 .b h1{
-    padding-left:150px;
+    margin-left: 70px;
     color:#ffffff;
 }
 ul li{
@@ -21,10 +27,9 @@ ul a{
     text-decoration: none;
     color:#ffffff;
     font-size:25px;
-    margin-left: auto;
 
 }
-ul{ margin-left:900px;
+ul{ margin-left:100px;
     word-spacing: 30px;
     margin-top: 35px;
     margin-right: auto;
@@ -36,7 +41,7 @@ ul{ margin-left:900px;
    }
 .second img{
     border-radius:50%;
-    width: 150px;
+    width: 8%;
 }
 ol li{
      display:inline;  
@@ -65,7 +70,7 @@ span img{
 }
 .container2{
     display: flex;
-    width:50%;
+    width:80%;
     margin: auto;
     border:1px ridge #dacaca;
     box-shadow: 10px 50px 50px 50px #dfdada;
@@ -87,7 +92,7 @@ span img{
 }
 .sub-container3{
     display: flex;
-    width:50%;
+    width:80%;
     margin: auto;
     border:1px ridge #dacaca;
     box-shadow: 10px 50px 50px 50px rgb(223, 218, 218);
@@ -106,14 +111,14 @@ td label, progress{
 }
  .continer4{
     text-align: center;
-    width:50%;
+    width:80%;
     margin: auto;
     border:1px ridge #dacaca;
     box-shadow: 10px 50px 50px 50px #dfdada;
     margin-top: 50px;
  }
   .continer4 .box1 img{
-    width: 60px;
+    width: 10%;
     border-radius: 100%;
  }
  .continer4 .box2 img{
@@ -126,7 +131,7 @@ td label, progress{
  }
  .continer5{
     text-align: center;
-    width:50%;
+    width:80%;
     margin: auto;
     border:1px ridge #dacaca;
     box-shadow: 10px 50px 50px 50px #dfdada;
@@ -166,7 +171,7 @@ td label, progress{
 }
 .continer6{
     text-align: center;
-    width:50%;
+    width:80%;
     margin:auto;
     border:1px ridge #dacaca;
     box-shadow: 10px 50px 50px 50px rgb(223, 218, 218);
@@ -181,10 +186,12 @@ td label, progress{
     display: flex;
  }
  .continer6 .box1 .box1-1{
-    width: 50%;
+    width: 20%;
     background-color: #42be09;
  }
-
+ .continer6 .box1 .box1-2{
+   width: 80%;
+}
 .continer6 .box1 .box1-1 .p1{
    font-size: 20px;
    color:#ffffff;
@@ -219,9 +226,12 @@ td label, progress{
     margin-top:20px;
  }
  .continer6 .box2 .box1-1{
-    width: 18%;
+    width:20%;
     background-color: #42be09;
  }
+ .continer6 .box2 .box1-2{
+   width:80%;
+}
 
 .continer6 .box2 .box1-1 .p1{
    font-size: 20px;
@@ -280,8 +290,13 @@ td label, progress{
     font-weight: bold;
     border: none;
  }
+ .box7-left{
+
+   width: 50%;
+ }
  .box7-right{
     margin-left: 40%;
+    width: 50%;
  }
  .continer7 .box7SUB .box7-left td input{ 
     border:none;
